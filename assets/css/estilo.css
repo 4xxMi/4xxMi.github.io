@@ -1,6 +1,6 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     scroll-padding-top: 50px;
 }
 
@@ -41,18 +41,76 @@ section {
     border: 2px dotted #8961b5;
 }
 
+section:hover{
+    background-color: #181818;
+    color: rgb(238, 194, 111);
+}
+
 .comando-git {
     padding: 5px;
-    font-size:1.25rem;
-    border:  3px solid #9920a3;
+    font-size: 2rem;
+    border: 3px solid #9920a3;
     background-color: #c9c8c8;
     color: #484848;
 }
 
-p{
+p {
     padding: 5px;
 }
 
-.conteudo{
+.git p {
+    padding: 5px;
+    font-size: 1.30rem;
+    border: 3px solid #555555;
+    background-color: #313031;
+    color: rgb(180, 180, 180);
+}
+
+.conteudo {
     margin-top: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #9920a3;
+}
+
+h3 {
+    font-size: 1.70rem;
+    color: #9920a3
+}
+
+
+.git img {
+    width: 650px;
+    height: 400px;
+}
+
+.git {
+    padding: 5px;
+}
+
+#projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projeto {
+    height: 300px;
+    width: 300px;
+    border: #9920a3 solid 5px;
+    margin: 10px;
+}
+
+.projeto>img {
+    width: 100%;
+}
+
+.labels span {
+    color: white;
+    background-color: rgb(194, 91, 1);
+    border-radius: 10px;
+    padding: 2px 5px;
 }
