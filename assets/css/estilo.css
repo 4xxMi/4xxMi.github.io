@@ -25,7 +25,7 @@ nav li {
 
 a {
     text-decoration: none;
-    color: orange;
+    color: rgb(204, 0, 10);
 }
 
 a:hover {
@@ -36,14 +36,14 @@ a:hover {
 section {
     min-height: 480px;
     background-color: #484848;
-    color: orange;
+    color: rgb(204, 0, 10);
     padding: 10px;
     border: 2px dotted #8961b5;
 }
 
-section:hover{
+section:hover {
     background-color: #181818;
-    color: rgb(238, 194, 111);
+    color: rgb(236, 111, 117);
 }
 
 .comando-git {
@@ -82,6 +82,7 @@ h3 {
 
 
 .git img {
+    padding: 15px;
     width: 650px;
     height: 400px;
 }
@@ -110,7 +111,108 @@ h3 {
 
 .labels span {
     color: white;
-    background-color: rgb(194, 91, 1);
+    background-color: rgb(194, 1, 49);
     border-radius: 10px;
     padding: 2px 5px;
+}
+
+.labels2 span {
+    color: white;
+    background-color: #6820a3;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
+.labels3 span {
+    color: white;
+    background-color: #4074e4;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
+.labels4 span {
+    color: white;
+    background-color: #b30000;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
+#redes_sociais {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.redes>a>img{
+    width: 87%;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+.redes2>a>img{
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+.redes3>a>img {
+    width: 80%;
+    padding-top: 0px;
+    padding-left: 30px;
+}
+
+
+.redes {
+    color: rgb(254, 220, 255);
+    height: 300px;
+    width: 300px;
+    border: #9920a3 solid 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.redes>img {
+    width: 75%;
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+.redes2 {
+    color: rgb(254, 220, 255);
+    height: 300px;
+    width: 300px;
+    border: #9920a3 solid 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.redes2>img {
+    padding: 5px;
+    padding-left: 25px;
+}
+
+
+.redes3 {
+    color: rgb(254, 220, 255);
+    height: 300px;
+    width: 300px;
+    border: #9920a3 solid 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.redes3>img{
+    width: 70%;
+}
+
+
+footer{
+    padding: 5px;
+    background-color: #313031;
+    color: #4074e4;
 }
