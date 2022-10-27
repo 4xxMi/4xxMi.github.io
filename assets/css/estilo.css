@@ -213,6 +213,12 @@ h3 {
 
 footer{
     padding: 5px;
+    min-height: 100px;
+    text-align: center;
     background-color: #313031;
     color: #4074e4;
+}
+
+.aaaaa h3{
+    color: #b30000;
 }
